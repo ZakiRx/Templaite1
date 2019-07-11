@@ -1,0 +1,37 @@
+.btn-toggler {
+    padding: 10px;
+    background: $FirstColor;
+    margin-top: 4%;
+    border: none;
+    float: left;
+    display: none;
+    cursor: pointer;
+    outline: none;
+
+    @media (max-width:$maxMobile) {
+        display: block;
+    }
+
+    span {
+        width: 22px;
+        height: 3px;
+        background: #fff;
+        display: block;
+        margin-bottom: 3px;
+
+    }
+}
+
+.btn-hide {
+    display: none;
+
+    @media (max-width:$maxMobile) {
+        display: block;
+        position: absolute;
+        right: 36px;
+        top: 15px;
+        font-size: 34px;
+        color: #fff;
+        cursor: pointer;
+    }
+}

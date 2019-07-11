@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    @include prefixer(webkit moz, box-sizing, border-box);
+}
+
+body {
+    font-family: tahoma;
+    font-size: 16px;
+}
+
+.ul-instyled {
+    list-style: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
